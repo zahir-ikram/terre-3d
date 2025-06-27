@@ -20,7 +20,7 @@ export default function EarthModel({ url }) {
     <mesh
       ref={meshRef}
       geometry={geometry}
-      scale={[0.15, 0.15, 0.15]}
+      scale={[0.1, 0.1, 0.1]}
       castShadow
       receiveShadow
     >
