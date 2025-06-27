@@ -1,7 +1,5 @@
 import { useGLTF } from '@react-three/drei'
 
-export default function EarthModel(props) {
-  const { scene } = useGLTF('/terre.glb')
   return (
     <primitive
       object={scene}
